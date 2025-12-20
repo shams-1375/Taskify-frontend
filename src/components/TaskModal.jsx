@@ -4,8 +4,8 @@ import { DEFAULT_TASK, baseControlClasses, priorityStyles } from '../assets/dumm
 import { toast } from 'react-toastify'
 
 
-const API_BASE = 'http://localhost:4000/api/tasks'
-const API_USERS = 'http://localhost:4000/api/users'
+const API_BASE = 'https://taskify-backend-1u0r.onrender.com'
+const API_USERS = 'https://taskify-backend-1u0r.onrender.com'
 
 
 const TaskModal = ({ isOpen, onClose, taskToEdit, onSave, onLogout }) => {
