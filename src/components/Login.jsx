@@ -14,7 +14,7 @@ const Login = ({ onSwitchMode, onSubmit }) => {
   const [formData, setFormData] = useState(INITIAL_FORM)
   const [rememberMe, setRememberMe] = useState(false)
   const navigate = useNavigate()
-  const url = 'https://taskify-backend-1-mrva.onrender.com'
+  const url = 'https://taskify-backend-1-mrva.onrender.com/api'
 
   useEffect(() => {
     const token = localStorage.getItem("token")

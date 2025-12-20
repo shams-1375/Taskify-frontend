@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { FIELDS, Inputwrapper, BUTTONCLASSES, MESSAGE_ERROR, MESSAGE_SUCCESS } from '../assets/dummy'
 import axios from 'axios'
 
-const API_URL = "https://taskify-backend-1-mrva.onrender.com"
+const API_URL = "https://taskify-backend-1-mrva.onrender.com/api"
 const INITIAL_FORM = { name: "", email: "", password: "" }
 
 const SignUp = ({onSwitchMode}) => {
