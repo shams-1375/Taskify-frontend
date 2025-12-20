@@ -21,7 +21,7 @@ const Layout = ({ onLogout, user }) => {
       const token = localStorage.getItem('token')
       if (!token) throw new Error("No auth token found")
 
-      const { data } = await axios.get("/api/tasks/gt", {
+const { data } = await axios.get("https://taskify-backend-1-mrva.onrender.com/api/tasks/gt", {
         headers: { Authorization: `Bearer ${token}` }
       })
 

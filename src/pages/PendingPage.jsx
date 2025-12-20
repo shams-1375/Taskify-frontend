@@ -35,7 +35,7 @@ const PendingPage = () => {
           </h1>
           <p className=' text-sm text-gray-500 mt-1 ml-7'>
             {sortedPendingTasks.length} task{sortedPendingTasks.length !== 1 && 's'} {' '}
-            need you'r attention
+            need your attention
           </p>
         </div>
         <div className={layoutClasses.sortBox}>
@@ -89,10 +89,7 @@ const PendingPage = () => {
             <TaskItem key={task._id || task.id}
               task={task}
               showCompleteCheckbox onDelete={() => handleDelete(task._id || task.id)}
-              onToggleComplete={() => handleToggleComplete(
-                task._id || task.id,
-                t.completed
-              )}
+              onToggleComplete={() => handleToggleComplete(task._id || task.id, task.completed)}
               onEdit={() => { setSelectedTask(task); setShowModal(true) }}
               onRefresh={refreshTasks}
               />

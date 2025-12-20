@@ -5,7 +5,7 @@ import { ChevronLeft, UserCircle, Save } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 
-const API_URL = 'https://taskify-backend-1-mrva.onrender.com/api'
+const API_URL = 'https://taskify-backend-1-mrva.onrender.com'
 
 const Profile = ({ setCurrentUser, onLogout }) => {
     const [profile, setProfile] = useState({ name: "", email: "" })
