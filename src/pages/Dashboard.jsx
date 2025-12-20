@@ -6,7 +6,7 @@ import TaskItem from '../components/TaskItem'
 import axios from 'axios'
 import TaskModal from '../components/TaskModal'
 
-const API_BASE = 'https://taskify-backend-1u0r.onrender.com'
+const API_BASE = 'https://taskify-backend-1-mrva.onrender.com'
 
 const Dashboard = () => {
 

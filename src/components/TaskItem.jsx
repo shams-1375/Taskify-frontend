@@ -6,7 +6,7 @@ import { isToday, format } from 'date-fns'
 import TaskModal from './TaskModal'
 
 
-const API_BASE = 'https://taskify-backend-1u0r.onrender.com'
+const API_BASE = 'https://taskify-backend-1-mrva.onrender.com'
 
 const TaskItem = ({ task, onRefresh, onLogout, showCompleteCheckbox = true }) => {
 
