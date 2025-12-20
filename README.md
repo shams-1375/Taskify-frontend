@@ -1,16 +1,146 @@
-# React + Vite
+Taskify – Task Management Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Taskify is a full-stack task management web application designed to help users efficiently create, organize, and track their tasks. It supports task assignment, priority management, and time-based sorting with a secure authentication system and a modern UI.
 
-Currently, two official plugins are available:
+🔗 Live Demo:
+👉 https://taskify-frontend-c7lm.onrender.com/login
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Features
+✅ Task Management
 
-## React Compiler
+Create new tasks with title, description, priority, and due date
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Update existing tasks
 
-## Expanding the ESLint configuration
+Delete tasks
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Assign tasks to other registered users
+
+📅 Smart Task Sorting
+
+View tasks by:
+
+Today
+
+This Week
+
+Priority-based categorization:
+
+🔴 High
+
+🟡 Medium
+
+🟢 Low
+
+👥 User Management
+
+Secure user registration and login
+
+Assign tasks to users within the application
+
+Profile page to update user details
+
+🔐 Authentication & Security
+
+Secure login and logout
+
+Protected routes for authenticated users
+
+JWT-based authentication
+
+🎨 Modern UI
+
+Responsive and clean user interface
+
+Built with Tailwind CSS
+
+Smooth user experience using React + Vite
+
+🛠️ Tech Stack
+Frontend
+
+React.js (Vite)
+
+Tailwind CSS
+
+React Router
+
+Axios
+
+Backend
+
+Node.js
+
+Express.js
+
+MongoDB Atlas
+
+JWT Authentication
+
+📁 Project Structure
+Taskify/
+│
+├── frontend/
+│   ├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   └── App.jsx
+│
+├── backend/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── middleware/
+│   └── server.js
+│
+└── README.md
+
+⚙️ Installation & Setup
+1️⃣ Clone the Repository
+git clone https://github.com/shams-1375/Taskify.git
+cd Taskify
+
+2️⃣ Frontend Setup
+cd frontend
+npm install
+npm run dev
+
+3️⃣ Backend Setup
+cd backend
+npm install
+npm start
+
+4️⃣ Environment Variables
+
+Create a .env file in the backend folder:
+
+MONGO_URI=your_mongodb_atlas_url
+JWT_SECRET=your_jwt_secret
+PORT=5000
+
+🔒 Authentication Flow
+
+Users must log in to access the dashboard
+
+JWT tokens are used for session management
+
+Unauthorized users are redirected to the login page
+
+📌 Future Enhancements
+
+Email notifications for task deadlines
+
+Drag and drop task management
+
+Admin role for advanced task control
+
+Dark mode support
+
+👨‍💻 Author
+
+Mohammed Shams Ahmed
+
+GitHub: https://github.com/shams-1375
+
+LinkedIn: https://www.linkedin.com/in/mohammed-shams-ahmed-b82b942a4
