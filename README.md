@@ -5,10 +5,10 @@ Taskify is a full-stack task management web application designed to help users e
  Live Demo:
  https://taskify-frontend-c7lm.onrender.com
 
- Features
+ Features 
  Task Management
 
-Create new tasks with title, description, priority, and due date
+Create new tasks with title, description, priority, due date and assignedTo
 
 Update existing tasks
 
@@ -26,13 +26,13 @@ This Week
 
 Priority-based categorization:
 
-🔴 High
+High
 
-🟡 Medium
+Medium
 
-🟢 Low
+Low
 
-👥 User Management
+User Management
 
 Secure user registration and login
 
@@ -40,7 +40,7 @@ Assign tasks to users within the application
 
 Profile page to update user details
 
-🔐 Authentication & Security
+Authentication & Security
 
 Secure login and logout
 
@@ -48,7 +48,7 @@ Protected routes for authenticated users
 
 JWT-based authentication
 
-🎨 Modern UI
+Modern UI
 
 Responsive and clean user interface
 
@@ -56,7 +56,7 @@ Built with Tailwind CSS
 
 Smooth user experience using React + Vite
 
-🛠️ Tech Stack
+Tech Stack
 Frontend
 
 React.js (Vite)
@@ -77,41 +77,39 @@ MongoDB Atlas
 
 JWT Authentication
 
-📁 Project Structure
+Project Structure
 Taskify/
-│
-├── frontend/
-│   ├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── services/
-│   └── App.jsx
-│
-├── backend/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── middleware/
-│   └── server.js
-│
-└── README.md
+ frontend/
+  src/
+  components/
+  pages/
+  services/
+  App.jsx
+  
+backend/
+  controllers/
+  models/
+  routes/
+  middleware/
+  server.js
+README.md
 
-⚙️ Installation & Setup
-1️⃣ Clone the Repository
+ Installation & Setup
+ Clone the Repository
 git clone https://github.com/shams-1375/Taskify.git
 cd Taskify
 
-2️⃣ Frontend Setup
+Frontend Setup
 cd frontend
 npm install
 npm run dev
 
-3️⃣ Backend Setup
+Backend Setup
 cd backend
 npm install
 npm start
 
-4️⃣ Environment Variables
+ Environment Variables
 
 Create a .env file in the backend folder:
 
@@ -119,7 +117,7 @@ MONGO_URI=your_mongodb_atlas_url
 JWT_SECRET=your_jwt_secret
 PORT=5000
 
-🔒 Authentication Flow
+Authentication Flow
 
 Users must log in to access the dashboard
 
@@ -127,7 +125,7 @@ JWT tokens are used for session management
 
 Unauthorized users are redirected to the login page
 
-📌 Future Enhancements
+ Future Enhancements
 
 Email notifications for task deadlines
 
@@ -137,7 +135,7 @@ Admin role for advanced task control
 
 Dark mode support
 
-👨‍💻 Author
+Author:-
 
 Mohammed Shams Ahmed
 
