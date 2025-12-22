@@ -5,9 +5,25 @@ Taskify is a full-stack task management web application designed to help users e
  Live Demo:
  https://taskify-frontend-c7lm.onrender.com
 
- Features 
- Task Management
+How to Use : 
 
+1) Open the live link : https://taskify-frontend-c7lm.onrender.com
+
+2) Sign up using a valid email and create a min 8 character's password
+
+3) Log in to access the dashboard
+
+4) get into the Taskify and Create, update, delete, and assign tasks
+
+5) Set priority (High / Medium / Low) and view tasks by Today / Week
+
+ScreenShots : 
+
+<img width="900" height="200" alt="image" src="https://github.com/user-attachments/assets/1a1a60f5-7d22-499e-af69-1cdf4ab81f33" />
+
+
+Features :  
+Task Management
 Create new tasks with title, description, priority, due date and assignedTo
 Update existing tasks
 Delete tasks
