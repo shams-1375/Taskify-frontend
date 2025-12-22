@@ -19,7 +19,19 @@ How to Use :
 
 ScreenShots : 
 
-<img width="900" height="200" alt="image" src="https://github.com/user-attachments/assets/1a1a60f5-7d22-499e-af69-1cdf4ab81f33" />
+SignUp : <img width="1600" height="769" alt="image" src="https://github.com/user-attachments/assets/5f1739db-04ff-4ca3-aa96-76ef7d9c5e43" />
+
+Dashboard : <img width="1584" height="773" alt="image" src="https://github.com/user-attachments/assets/02dadb88-595c-4c7b-9a21-5a932568be33" />
+
+Pending : <img width="1581" height="771" alt="image" src="https://github.com/user-attachments/assets/fd03edee-d0e8-45e6-aa56-22c98d013e6d" />
+
+Completed : <img width="1576" height="759" alt="image" src="https://github.com/user-attachments/assets/8fa2fbcc-9fe3-4aa2-8bdd-9b20fb451d06" />
+
+Create Task Modal : <img width="1581" height="768" alt="image" src="https://github.com/user-attachments/assets/5af5142e-758f-49d8-b4f5-7bb8e69f911f" />
+
+
+
+
 
 
 Features :  
